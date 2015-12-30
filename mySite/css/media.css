@@ -1,0 +1,120 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.contacts {
+		display: none;
+	}
+	button.contacts_top {
+		display: block;
+		font-size: 2em;
+	}
+	.contacts {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+    background: #020202;
+    z-index: 10;
+	}
+	.stek {
+		width: auto;
+		margin-left: 3em;
+	}
+	a.offer {
+		top: -2em;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 771px) {
+	button.menu {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	nav ul {
+		position: absolute;
+		top: 2em;
+		background: #020202;
+		padding: 0px;
+		left: 0;
+		z-index: 10;
+	}
+	nav li {
+		float: none;
+		display: block !important;
+		padding: 2em;
+	}
+	nav a {
+		padding: 2em;
+		transition: none;
+	}
+	nav a:hover {
+		background: none;
+		padding: 2em;
+		color: white;
+
+	}
+	.stek {
+		margin-left: 24%;
+	}
+	.stek ul {
+		width: 100%
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.stek ul {
+		padding-left: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 772px) {
+	button.menu {
+		display: none;
+	}
+	nav {
+	display: inline-block !important;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	button.contacts_top {
+		display: none;
+	}
+	.contacts {
+		display: inline-block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

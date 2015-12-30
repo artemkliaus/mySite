@@ -1,0 +1,236 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	box-shadow: 0px 0px 10px 3px red;
+}
+body input:required:valid,
+body textarea:required:valid {
+	box-shadow: 0px 0px 10px 3px green;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(../images/back.png);
+	line-height: 1;
+}
+header {
+	background: #020202;
+	line-height: 1.5;
+}
+nav ul li {
+	display: inline-block;
+}
+
+nav a {
+	color: #eef4f8;
+	padding: 1.5em;
+	text-transform: uppercase;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+nav a:hover {
+	color: #020202;
+	background: #eef4f8;
+	padding: 1.5em;
+}
+#bar {
+	top: -9em; right: 2em; /* Положение */
+	padding: 1em; /* Поля */
+	margin: 0; /* Отступы */
+	position: absolute; /* Абсолютное позиционирование */
+	/*width: 2em;  Ширина */
+	background: #020202; /* Цвет фона */
+	color: #eef4f8; /* Цвет текста */
+	text-align: center; /* Выравнивание по центру */
+	list-style-type: none;
+	cursor: pointer;
+	z-index: 10;
+	/* Переход */
+	-webkit-transition: top 1s ease-out 0.5s;
+	-moz-transition: top 1s ease-out 0.5s;
+	-o-transition: top 1s ease-out 0.5s;
+	transition: top 1s ease-out 0.5s;
+    }
+#bar a {color: #eef4f8;}
+#bar a:hover {
+	cursor: pointer;
+	transition: 2.5s;
+    transform: rotateY(360deg);
+}
+#bar:hover { top: 0; }
+
+.contacts {
+	float: right;
+    color: #eef4f8;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+button.contacts_top,
+button.menu {
+    float: right;
+    font-size: 3em;
+    background-color: transparent;
+    border: none;
+    color: #eef4f8;
+    outline: none;
+    margin: 0 0.5em;
+}
+.contacts i {
+	font-size: 1.5em;
+}
+button.menu {
+	float: left;
+	font-size: 2em;
+	margin: 0;
+}
+h1.brand  {
+	text-align: center;
+	margin: 1em 0;
+}
+
+h1.brand img:hover {
+	transform: rotateZ(360deg);
+	transition: 5s;
+}
+
+a.offer {
+    float: right;
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    color: #eef4f8;
+    background: #020202;
+    padding: 2em 1em;
+    border-top: 1px #eef4f8 solid;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+a.offer:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #020202;
+}
+.photo {
+	text-align: center;
+}
+.photo img {
+	margin: 3em 0em;
+    border: #020202 10px solid;
+}
+.stek {
+	color: #eef4f8;
+    background: #020202;
+    margin: 3em 2em;
+    width: 30%;	
+}
+.stek ul li {
+	display: block;
+	padding: 0.5em;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+h2.oldw {
+	text-align: center;
+    font-family: "RobotoBold";
+    color: #020202;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.owl-prev,
+.owl-next {
+	position: absolute;
+	top: 45%;
+	color: white;
+	z-index: 10;
+	background-color: rgba(2,2,2,.5);
+	padding: 2em;	
+}
+
+.owl-next {
+	right: 1em;
+}
+.owl-prev {
+	left: 1em;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.reviews {
+	color: #020202;
+	font-style: italic;
+}
+.reviews h3 {
+	text-align: right;
+	padding: 1em;
+}
+.reviews p {
+	padding: 1em;
+}
+footer {
+	background: #020202;
+	color: #eef4f8;
+	margin-top: 2em;
+}
+footer p {
+	text-transform: uppercase;
+	font-size: 0.8em;	
+}
+.icons {
+	text-align: right;
+	padding: 1em;
+}
+.icons a {
+	color: #eef4f8;
+	padding: 1em;
+}
+.icons a:hover {
+	cursor: pointer;
+	transition: 2.5s;
+    transform: rotateY(360deg);
+}
+.hide {
+	display: none;
+}
+
+button.fbutton {
+    color: #eef4f8;
+    background: #020202;
+    display: block;
+    margin: 1em auto;
+    border: none;
+    padding: 1em;
+}
+.callform input[type="text"] {
+	display: block;
+	margin: 0.5em auto;
+	width: 90%;
+}
+.callform h3 {
+	color: #020202;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em;
+}
